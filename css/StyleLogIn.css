@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(imgLog/joshua-kettle-mHm1ASYNC0I-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+
+#login{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 50px; 
+    border-radius: 30px;
+    border-color: #8a2be2;
+    background-image: url(imgLog/jeremy-perkins-FsK54FVNRfM-unsplash.jpg);
+    background-position: center;
+    background-size: 150%;
+    
+    
+}
+
+form input{
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+form{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 30px;
+}
+
+form .fa-solid{
+    font-size: 25px;
+    color: #8a2be2;
+}
+
+.recuerdame{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: whitesmoke;
+}
+
+.button{
+    display: flex;
+    justify-content:center;
+
+}
+
+#button{
+    width: 300px;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 10px;
+    border:0px solid rgba(0, 0, 0, .5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+    color:whitesmoke;
+    background-color: #8a2be2;
+}
+
+#button:hover{
+    background-color: rgb(64, 20, 105)
+}
+
+
+
+.enlaces{
+    margin-top: 30px;
+}
+
+.enlaces .recuperar{
+    float: right;
+}
+
+
+@media(max-width:450px){
+    html{
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 850px){
+
+    #login{
+        background-size: cover;
+    }
+    body{
+        background-size: cover;
+    }
+
+}
+
+@media(max-width:1200px){
+    html{
+        font-size: 70%;
+    }
+}
+
+
+

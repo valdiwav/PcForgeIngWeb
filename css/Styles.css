@@ -1,0 +1,414 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+
+html{
+    font-size: 62.4%;
+    overflow: scroll;
+}
+
+body{
+    min-height: 100vh;
+    background: #000000;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(100deg, #000000 18%,#49019c 48%,#8100bd 59%,blueviolet 100%);    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 1rem 4%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .navbar a{
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    color: whitesmoke;
+}
+
+header .navbar a:hover{
+    color: #0077ff ;
+}
+
+header input{
+    display: none;
+
+}
+header label{
+    font-size: 3rem;
+    color: black;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    header label{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 1rem 2rem;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+
+    header .navbar a{
+        display: block;
+        margin: 2rem 0;
+        font-size: 2rem;
+
+    }
+
+    header input:checked ~ .navbar{
+        transform: scaleY(1);
+        opacity: 1;
+
+    }
+    header input:checked ~ label::before{
+        content: '\f00d';
+    }
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 49%;
+    }
+}
+
+.inicio{
+    padding: 0.5%;
+}
+
+
+.img-svg{
+    height: 90px;
+    width: 353px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.conteiner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bubbles{
+    position: relative;
+    display: flex;
+}
+
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #ff6600;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #ff880044,0 0 50px #ff6600, 0 0 100px #ff6600;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(100s / var(--i));
+}
+
+.bubbles span:nth-child(even){
+    background: #ff0000;
+    box-shadow: 0 0 0 10px #ff2d2d44, 0 0 50px #ff0000, 0 0 100px #ff0000;
+}
+
+@keyframes animate{
+    100% {
+        transform: translateY(-10vh) scale(0);
+    }
+    0%{
+        transform: translateY(125vh) scale(0.2);
+    }
+}
+
+h1{
+    font-size: 3.5em;
+    color: whitesmoke;
+}
+h2{
+    font-size: 2.7em;
+    color: whitesmoke;
+}
+p{
+    font-size: 1.25em;
+    color: whitesmoke;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:1px solid rgba(0, 0, 0, .5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+    color:whitesmoke;
+    background-color: blueviolet;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+.cont{
+    max-width: 1400px;
+    margin: auto;
+}
+#Titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) 
+    ,url("imgLog/PCBuild.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 0;
+}
+
+
+#PcForge .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#PcForge p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.color-marca{color: blueviolet;}
+
+
+#nuestros-programas{
+    background-color: rgb(30,30,30);
+    color: whitesmoke;
+    text-align: center;
+}
+
+#nuestros-programas .container{
+    padding: 150px 12px;
+}
+
+#nuestros-programas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-programas p{
+    display: none;
+}
+
+#nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+#nuestros-programas h3{
+    font-size: 20px;
+}
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imgLog/hardware.png");
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imgLog/amd-vs-intel.png");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imgLog/ensamblaje.png");
+
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 5px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height:90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    align-items: center;
+}
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+  
+.buttons a:hover {
+    transform: scale(1.2);
+}  
+
+@media (min-width: 850px){
+
+    #Titulo h1{
+        font-size: 5em;
+    }
+
+    #Pcforge .container{
+        
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    #PcForge h2{
+        margin-top: 0px;
+    }
+
+
+    #nuestros-programas .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-programas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestros-programas h2{
+        font-size: 4em;
+    }
+
+    #nuestros-programas h3{
+        margin-top: 0;
+    }
+
+    #nuestros-programas .carta{
+        padding: 50px;
+        background-size: 100% 300px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        width: 600px;
+    }
+
+    .carta:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("imgLog/hardware.png");
+
+    }
+
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("imgLog/amd-vs-intel.png");
+    }
+
+    .carta:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("imgLog/ensamblaje.png");
+
+    }
+
+
+
+    footer .container{
+        justify-content: flex-end;
+    }
+}
+
+
+
+
+
+

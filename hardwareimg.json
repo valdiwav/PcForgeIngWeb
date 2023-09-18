@@ -1,0 +1,42 @@
+[
+        {
+            "nombre": "Procesador",
+            "img": "css/imgLog/proce.webp",
+            "descripcion": "Es un profesor de química de secundaria que, tras cumplir sus cincuenta años, descubre que tiene un cáncer de pulmón incurable. Para asegurar el futuro económico de su familia tras su inminente muerte, Walter decide ponerse a fabricar metanfetamina junto a un antiguo alumno suyo, Jesse Pinkman. Walter es un hombre que se siente frustrado e impotente ante los avatares que le ha deparado la vida, y que hará todo lo que esté en su mano para que su familia no sufra penurias económicas cuando él falte."
+        },
+        {
+            "nombre": "Tarjeta de video",
+            "img": "css/imgLog/graficas-portada.webp",
+            "descripcion": "Es un antiguo alumno de Walter White, con quien se reencuentra inesperadamente cuando Walter decide cocinar metanfetamina y venderla. Jesse es un joven rebelde, que se ha criado en una familia desestructurada y que ha pasado por varios centros de desintoxicación de drogas. Jesse es un chico con un gran corazón, pero que se ha visto obligado a hacer cosas terribles para sobrevivir."
+        },
+        {
+            "nombre": "Placa madre",
+            "img": "css/imgLog/mother.jpg",
+            "descripcion": "Es la esposa de Walter White y madre de Walter White Jr. y Holly White. Skyler es una mujer inteligente, que ha trabajado como contable y que se ha dedicado a cuidar de su familia. Skyler es una mujer que se siente frustrada por la situación económica de su familia, y que se siente cada vez más alejada de su marido, Walter, que le oculta cosas."
+        },
+        {
+            "nombre": "Memoria ram",
+            "img": "css/imgLog/ram.png",
+            "descripcion": "Es el cuñado de Walter White, y trabaja como agente de la DEA. Hank es un hombre muy inteligente, que se ha dedicado a su trabajo con pasión, y que ha conseguido ascender en su carrera profesional. Hank es un hombre muy duro, que no duda en hacer lo que sea necesario para conseguir sus objetivos."
+        },
+        {
+            "nombre": "Almacenamiento",
+            "img": "css/imgLog/ssd.jpg",
+            "descripcion": "Es un abogado que se dedica a ayudar a los delincuentes a lavar su dinero. Saul es un hombre muy inteligente, que sabe cómo moverse en el mundo de la delincuencia, y que siempre consigue salirse con la suya."
+        },
+        {
+            "nombre": "Cooler",
+            "img": "css/imgLog/cooler.webp",
+            "descripcion": "Es un empresario que se dedica a la venta de pollos fritos, y que en realidad es un narcotraficante. Gus es un hombre muy inteligente, que sabe cómo moverse en el mundo de la delincuencia, y que siempre consigue salirse con la suya."
+        },
+        {
+            "nombre": "Gabinete",
+            "img": "css/imgLog/gabinete.jpg",
+            "descripcion": "Es un empresario que se dedica a la venta de pollos fritos, y que en realidad es un narcotraficante. Gus es un hombre muy inteligente, que sabe cómo moverse en el mundo de la delincuencia, y que siempre consigue salirse con la suya."
+        },
+        {
+            "nombre": "Ventiladores",
+            "img": "css/imgLog/fans.jpg",
+            "descripcion": "Es un empresario que se dedica a la venta de pollos fritos, y que en realidad es un narcotraficante. Gus es un hombre muy inteligente, que sabe cómo moverse en el mundo de la delincuencia, y que siempre consigue salirse con la suya."
+        }
+]
